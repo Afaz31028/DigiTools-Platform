@@ -7,14 +7,12 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 src/components/AccountSteps/
-src/components/Banner/
 src/components/Cart
 src/components/Products/
 src/components/Footer/
 src/components/DisplayPackage/
 src/components/Package/
 src/components/Subscription/
-src/components/Tracking/
 
 
 
