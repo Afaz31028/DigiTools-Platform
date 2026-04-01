@@ -20,7 +20,7 @@ const DisplayPackage = ({packageData, choosePackage, setChoosePackage, bill, set
       <div>
         <div>
           <div>
-            <div className="card w-96 bg-base-100 shadow-xl">
+            <div className="card md:w-96 w-full bg-base-100 shadow-xl">
               <div className="card-body">
                 <div className="flex justify-end">
                   <span className="badge badge-xs bg-amber-200 p-2 py-3 rounded-3xl text-md font-extrabold text-amber-800">

@@ -14,19 +14,19 @@ const Tracking = () => {
   };
   return (
     <div className="bg-linear-to-br from-[#4F39F6] to-[#9514FA]">
-      <div className="mx-auto px-80 py-15 flex justify-between items-center text-center">
+      <div className="mx-auto p-10 md:px-80 md:py-15 flex flex-col md:flex-row justify-center md:justify-between gap-7 items-center text-center">
         <div >
           <h2 style={trackingNumber}>50K+</h2>
           <p style={trackingIssue}>Active Users</p>
         </div>
-        <div>
+        <div className="hidden md:flex">
           <PiLineVertical className="text-6xl text-gray-400" />
         </div>
         <div>
           <h2 style={trackingNumber}>200+</h2>
           <p style={trackingIssue}>Premium Tools</p>
         </div>
-        <div>
+        <div className="hidden md:flex">
           <PiLineVertical className="text-6xl text-gray-400" />
         </div>
         <div>

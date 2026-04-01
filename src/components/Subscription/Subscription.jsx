@@ -3,9 +3,9 @@ import { FaCheck } from "react-icons/fa";
 
 const Subscription = () => {
   return (
-    <div className="px-40 py-30">
+    <div className="md:px-40 md:py-30 p-10">
       <div className="text-center mx-auto">
-        <h1 className="text-5xl font-extrabold mb-4">
+        <h1 className="text-3xl font-bold md:text-5xl md:font-extrabold mb-4">
           Simple, Transparent Pricing
         </h1>
         <p className="text-gray-400 mb-10">
@@ -13,8 +13,8 @@ const Subscription = () => {
         </p>
       </div>
       <div className="mx-auto mb-10">
-        <div className="grid grid-cols-3 items-center">
-          <div className="card w-96 bg-base-100 shadow-md">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-center gap-7">
+          <div className="card md:w-96 w-full bg-base-100 shadow-md">
             <div className="card-body">
                 <h1 className="text-2xl font-bold">Starter</h1>
                 <p className="text-gray-400">Perfect for getting started</p>
@@ -45,7 +45,7 @@ const Subscription = () => {
               </div>
             </div>
           </div>
-          <div className="card w-96 bg-base-100 shadow-sm bg-linear-to-br from-[#4F39F6] to-[#9514FA] text-base-100">
+          <div className="card w-full md:w-96 bg-base-100 shadow-sm bg-linear-to-br from-[#4F39F6] to-[#9514FA] text-base-100">
             <p className="absolute -top-3 left-35 font-bold bg-amber-100 text-amber-600 px-2 rounded-3xl">Most Popular</p>
             <div className="card-body">
                 <h1 className="text-2xl font-bold">Pro</h1>
@@ -85,7 +85,7 @@ const Subscription = () => {
               </div>
             </div>
           </div>
-          <div className="card w-96 bg-base-100 shadow-sm">
+          <div className="card w-full md:w-96 bg-base-100 shadow-sm">
             <div className="card-body">
                 <h1 className="text-2xl font-bold">Enterprise</h1>
                 <p className="text-gray-400">For teams and businesses</p>

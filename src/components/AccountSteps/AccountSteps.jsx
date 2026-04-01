@@ -7,11 +7,11 @@ import stepImg3 from '../../assets/rocket.png'
 const AccountSteps = () => {
     return (
         <div>
-            <div className='px-50 py-30 text-center'>
-                <h1 className='text-5xl font-extrabold mb-4'>Get Started in 3 Steps</h1>
+            <div className='md:px-50 md:py-30 p-10 text-center'>
+                <h1 className='text-3xl md:text-5xl font-bold md:font-extrabold mb-4'>Get Started in 3 Steps</h1>
                 <p className='text-gray-400'>Start using premium digital tools in minutes, not hours.</p>
-                <div className='flex justify-between items-center mt-10'> 
-                    <div className='w-[380px] h-[380px] shadow-lg p-6 rounded-2xl'>
+                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-center mt-10 gap-10'> 
+                    <div className=' w-full md:w-[380px] h-[380px] shadow-lg p-6 rounded-2xl'>
                         <div className='flex justify-end'>
                             <span className='p-1 w-8 h-8 text-center bg-indigo-600 rounded-full text-base-100'>01</span>
                         </div>
@@ -21,7 +21,7 @@ const AccountSteps = () => {
                         <h3 className='text-2xl font-bold mt-4'>Create Account</h3>
                         <p className='text-gray-400 font-normal mt-4'>Sign up for free in seconds. No credit card required to get started.</p>
                     </div>
-                    <div className='w-[380px] h-[380px] shadow-lg p-6 rounded-2xl'>
+                    <div className='w-full md:w-[380px] h-[380px] shadow-lg p-6 rounded-2xl'>
                         <div className='flex justify-end'>
                             <span className='p-1 w-8 h-8 text-center bg-indigo-600 rounded-full text-base-100'>02</span>
                         </div>
@@ -31,7 +31,7 @@ const AccountSteps = () => {
                         <h3 className='text-2xl font-bold mt-4'>Choose Products</h3>
                         <p className='text-gray-400 font-normal mt-4'>Browse our catalog and select the tools that fit your needs.</p>
                     </div>
-                    <div className='w-[380px] h-[380px] shadow-lg p-6 rounded-2xl'>
+                    <div className='w-full md:w-[380px] h-[380px] shadow-lg p-6 rounded-2xl'>
                         <div className='flex justify-end'>
                             <span className='p-1 w-8 h-8 text-center bg-indigo-600 rounded-full text-base-100'>03</span>
                         </div>

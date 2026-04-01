@@ -5,13 +5,13 @@ import { FaSquareXTwitter } from 'react-icons/fa6';
 
 const Footer = () => {
     return (
-        <div className='px-50 pt-30 pb-7 bg-[#101727] text-white '>
-            <div className='flex justify-between items-center'>
+        <div className='md:px-50 md:pt-30 p-7 bg-[#101727] text-white '>
+            <div className='flex flex-col md:flex-row gap-6 md:justify-between items-center'>
                 <div>
                     <h1 className='text-4xl font-bold'>DigiTools</h1>
                     <p className='mt-4 text-slate-400 font-normal'>Premium digital tools for creators,<br /> professionals, and businesses. Work smarter <br /> with our suite of powerful tools.</p>
                 </div>
-                <div className='flex gap-30'>
+                <div className='flex gap-5'>
                     <div>
                         <h1>Product</h1>
                         <p className='text-gray-400 mt-4'>Features</p>
@@ -50,7 +50,7 @@ const Footer = () => {
                 </div>
             </div>
             <hr className='mt-20 text-gray-600' />
-            <div className='flex justify-between items-center mt-7 text-gray-500'>
+            <div className='flex flex-col md:flex-row justify-between items-center mt-7 text-gray-500'>
                 <div>
                     <p>© 2026 Digitools. All rights reserved.</p>
                 </div>
