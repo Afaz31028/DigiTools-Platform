@@ -1,0 +1,130 @@
+[
+  {
+    "id": 1,
+    "name": "Resume Builder Pro",
+    "description": "Create professional resumes with AI-powered suggestions.",
+    "price": 19,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "100+ templates",
+      "ATS optimization",
+      "Export to PDF",
+      "AI content suggestions"
+    ],
+    "icon": "📄"
+  },
+  {
+    "id": 2,
+    "name": "Portfolio Website Kit",
+    "description": "Build a stunning personal portfolio website بسهولة.",
+    "price": 49,
+    "period": "one-time",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "features": [
+      "Responsive design",
+      "Custom domains",
+      "SEO optimization",
+      "Easy drag & drop"
+    ],
+    "icon": "🌐"
+  },
+  {
+    "id": 3,
+    "name": "AI Content Generator",
+    "description": "Generate blog posts, captions, and more using AI.",
+    "price": 29,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": [
+      "Unlimited content",
+      "Multiple languages",
+      "SEO friendly",
+      "Fast generation"
+    ],
+    "icon": "✍️"
+  },
+  {
+    "id": 4,
+    "name": "Job Tracker",
+    "description": "Track your job applications and interview progress.",
+    "price": 9,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "Application tracking",
+      "Interview reminders",
+      "Notes & feedback",
+      "Analytics dashboard"
+    ],
+    "icon": "📊"
+  },
+  {
+    "id": 5,
+    "name": "Design Assets Bundle",
+    "description": "Access thousands of icons, illustrations, and UI kits.",
+    "price": 79,
+    "period": "yearly",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "features": [
+      "5000+ icons",
+      "UI kits",
+      "Illustrations",
+      "Commercial license"
+    ],
+    "icon": "🎨"
+  },
+  {
+    "id": 6,
+    "name": "Code Snippet Manager",
+    "description": "Organize and reuse your code snippets efficiently.",
+    "price": 15,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": [
+      "Syntax highlighting",
+      "Cloud sync",
+      "Search & filter",
+      "Team sharing"
+    ],
+    "icon": "💻"
+  },
+  {
+    "id": 7,
+    "name": "Online Course Platform",
+    "description": "Create and sell your own online courses بسهولة.",
+    "price": 99,
+    "period": "yearly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "Video hosting",
+      "Student management",
+      "Payment integration",
+      "Analytics"
+    ],
+    "icon": "🎓"
+  },
+  {
+    "id": 8,
+    "name": "Email Marketing Tool",
+    "description": "Send campaigns and grow your audience effectively.",
+    "price": 25,
+    "period": "monthly",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "features": [
+      "Email templates",
+      "Automation",
+      "Analytics",
+      "Subscriber management"
+    ],
+    "icon": "📧"
+  }
+]
