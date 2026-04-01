@@ -6,11 +6,8 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
-src/components/AccountSteps/
 src/components/Cart
 src/components/Products/
-src/components/Footer/
-src/components/Subscription/
 
 
 
