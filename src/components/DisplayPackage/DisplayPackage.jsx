@@ -1,12 +1,17 @@
-import React from "react";
+import React, { useState } from "react";
 import Feature from "./Feature";
 import Cart from "../Cart/Cart";
+import { FaCheck } from 'react-icons/fa';
 
-const DisplayPackage = ({packageData, choosePackage, setChoosePackage}) => {
+const DisplayPackage = ({packageData, choosePackage, setChoosePackage, bill, setBill}) => {
+
+  const [clicked, setClicked]=useState(false);
 
   const buyPackage=(packageData)=>{
     const newPackage= [...choosePackage, packageData]
     setChoosePackage(newPackage)
+    setClicked(true);
+    setBill(bill + Number(packageData.price))
   }
   return (
     <div>
@@ -34,7 +39,10 @@ const DisplayPackage = ({packageData, choosePackage, setChoosePackage}) => {
                   }
                 </ul>
                 <div className="mt-4">
-                  <button onClick={()=>{buyPackage(packageData)}} className="btn btn-block text-gray-300 rounded-4xl bg-linear-to-br from-[#4F39F6] to-[#9514FA]">Buy Now</button>
+                  <button onClick={()=>{buyPackage(packageData)}} className={`btn btn-block text-gray-300 rounded-4xl ${!clicked ? "bg-linear-to-br from-[#4F39F6] to-[#9514FA]":"bg-green-600" }`}>{clicked ? <>
+      <FaCheck className="inline-block mr-2 text-green-400" />
+      Added to Cart
+    </>:"Buy Now"}</button>
                 </div>
               </div>
             </div>

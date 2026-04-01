@@ -1,7 +1,7 @@
 import React from "react";
 import DisplayPackage from "../DisplayPackage/DisplayPackage";
 
-const Products = ({ packagesData, choosePackage, setChoosePackage }) => {
+const Products = ({ packagesData, choosePackage, setChoosePackage, bill, setBill }) => {
   console.log(packagesData);
   return (
     <div>
@@ -12,6 +12,8 @@ const Products = ({ packagesData, choosePackage, setChoosePackage }) => {
             packageData={packageData}
             choosePackage={choosePackage}
             setChoosePackage={setChoosePackage}
+            bill={bill}
+            setBill={setBill}
           ></DisplayPackage>
         ))}
       </div>

@@ -6,6 +6,7 @@ const Package = ({packagesPromise}) => {
     const packagesData= use(packagesPromise);
     const [changeTab, setChageTab]= useState(false);
     const [choosePackage, setChoosePackage]= useState([]);
+    const [bill, setBill]=useState(0);
     // console.log(choosePackage)
 
     const changeState=()=>{
@@ -26,12 +27,12 @@ const Package = ({packagesPromise}) => {
               Products
             </button>
             <button onClick={changeState}  className={`btn rounded-l-none rounded-r-xl p-5 ${changeTab ? "bg-linear-to-br from-[#4F39F6] to-[#9514FA] && text-base-100" : "text-neutral-900"}  `}>
-              Cart (2)
+              Cart ({choosePackage.length})
             </button>
           </div>
         </div>
 
-        {!changeTab ? <Products packagesData={packagesData} choosePackage={choosePackage} setChoosePackage={setChoosePackage}></Products> : <Cart choosePackage={choosePackage} setChoosePackage={setChoosePackage}></Cart>}
+        {!changeTab ? <Products packagesData={packagesData} choosePackage={choosePackage} setChoosePackage={setChoosePackage} bill={bill} setBill={setBill}></Products> : <Cart choosePackage={choosePackage} setChoosePackage={setChoosePackage} bill={bill} setBill={setBill}></Cart>}
     </div>
   );
 };
