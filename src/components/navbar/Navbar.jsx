@@ -1,6 +1,5 @@
 import React from "react";
 import { CiShoppingCart } from "react-icons/ci";
-import { IoMdMenu } from "react-icons/io";
 const Navbar = () => {
   return (
     <div>

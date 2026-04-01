@@ -4,7 +4,7 @@ import bannerIcon from "../../assets/bannerIcon.png";
 import { CiPlay1 } from "react-icons/ci";
 const Banner = () => {
   return (
-    <div className="mx-auto px-50 py-15">
+    <div className="mx-auto md:px-50 md:py-15 p-10">
       <div className="flex md:flex-row flex-col justify-between items-center">
         <div className="max-w-160">
           <div className="inline-block bg-indigo-200 rounded-3xl text-[#9514FA] mb-4">
@@ -27,8 +27,8 @@ const Banner = () => {
             </div>
           </div>
         </div>
-        <div>
-          <img src={bannerImg} alt="Banner_Image" />
+        <div className="hidden md:flex">
+          <img className="w-full" src={bannerImg} alt="Banner_Image" />
         </div>
       </div>
     </div>

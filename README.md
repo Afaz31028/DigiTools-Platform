@@ -1,16 +1,57 @@
-# React + Vite
+🚀 DigiTools
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+📌 Description:
+DigiTools is a modern and interactive web application that allows users to explore and purchase different course packages. It provides a smooth user experience with dynamic cart management, real-time updates, and user-friendly UI components. Users can easily browse products, add them to the cart, remove items, and proceed to checkout with instant feedback using notifications.
 
-Currently, two official plugins are available:
+🛠️ Technologies Used:
+⚛️ React.js
+🎨 Tailwind CSS
+🔔 React Toastify
+💡 JavaScript (ES6+)
+🛍️ JSON (for product data)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## React Compiler
+✨ Features:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+1. 📦 Dynamic Product & Cart System:
+Default Products tab shows all available course packages
+Each package includes:
+Name
+Popular tag
+Price
+Features
+Buy Now button
+Clicking Buy Now adds the course to the cart instantly
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+2. 🔄 Toggle-Based UI Navigation
+Two tabs:
+    🛍️ Products (default view)
+    🛒 Cart (initially empty)
+Switching to the Cart tab shows all selected courses dynamically
+
+
+3. 💰 Smart Cart Management:
+Users can:
+❌ Remove items using delete icon
+💳 See total purchase amount updated in real-time
+🧾 Click Proceed to Checkout to clear the cart
+
+
+4. 🔔 Real-Time Notifications: Integrated React Toastify for better UX.
+Notifications appear when:
+✅ Clicking Buy Now
+❌ Removing a course
+💳 Proceeding to checkout
+
+
+📷 UI Sections Included:
+🔝 Navbar
+🎯 Banner Section
+📊 Stats Section
+📚 Main Section (Course Packages)
+🔄 Communication Steps
+💳 Subscription Cards
+🔻 Footer
+
+DigiTools focuses on providing a clean UI, interactive user experience, and efficient state management for handling products and cart functionality in a real-world scenario.
