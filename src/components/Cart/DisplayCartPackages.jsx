@@ -1,5 +1,6 @@
 import React from 'react';
 import { MdDelete } from 'react-icons/md';
+import { toast } from 'react-toastify';
 
 const DisplayCartPackages = ({selectedPackage,choosePackage, setChoosePackage, bill, setBill}) => {
 
@@ -7,6 +8,7 @@ const DisplayCartPackages = ({selectedPackage,choosePackage, setChoosePackage, b
         const newPackages= choosePackage.filter(newPackage => newPackage.name != selectedPackage.name)
         setChoosePackage(newPackages)
         setBill(bill - Number(selectedPackage.price))
+        toast.info("Remove the cart successfully!")
     }
     // console.log(selectedPackage)
     return (

@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Feature from "./Feature";
 import Cart from "../Cart/Cart";
 import { FaCheck } from 'react-icons/fa';
+import { toast } from "react-toastify";
 
 const DisplayPackage = ({packageData, choosePackage, setChoosePackage, bill, setBill}) => {
 
@@ -12,6 +13,7 @@ const DisplayPackage = ({packageData, choosePackage, setChoosePackage, bill, set
     setChoosePackage(newPackage)
     setClicked(true);
     setBill(bill + Number(packageData.price))
+    toast.success("successfully added to cart!")
   }
   return (
     <div>

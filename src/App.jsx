@@ -7,6 +7,7 @@ import Package from './components/Package/Package'
 import AccountSteps from './components/AccountSteps/AccountSteps'
 import Subscription from './components/Subscription/Subscription'
 import Footer from './components/Footer/Footer'
+import { ToastContainer } from 'react-toastify'
 
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
       <AccountSteps></AccountSteps>
       <Subscription></Subscription>
       <Footer></Footer> 
+      <ToastContainer/>
     </>
   )
 }
