@@ -54,6 +54,6 @@ DigiTools is a modern and interactive web application that allows users to explo
 - 💳 Subscription Cards
 - 🔻 Footer
 
-## Project Live Link: <p> https://digitools-app.netlify.app/ <p>
+#### Project Live Link: <p> https://digitools-app.netlify.app/ <p>
 
-# DigiTools focuses on providing a clean UI, interactive user experience, and efficient state management for handling products and cart functionality in a real-world scenario.
+#### DigiTools focuses on providing a clean UI, interactive user experience, and efficient state management for handling products and cart functionality in a real-world scenario.
