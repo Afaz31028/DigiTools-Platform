@@ -56,4 +56,14 @@ DigiTools is a modern and interactive web application that allows users to explo
 
 #### Project Live Link: <p> https://digitools-app.netlify.app/ <p>
 
+### 🚀 How to Run Locally
+- Follow these simple steps to run the project on your local machine:
+
+- 1. Clone the Repository
+Open your terminal and run: https://github.com/Afaz31028/G3-Architect.git
+
+- 2. Or download the project as a ZIP file and extract it.
+
+
+
 #### DigiTools focuses on providing a clean UI, interactive user experience, and efficient state management for handling products and cart functionality in a real-world scenario.
