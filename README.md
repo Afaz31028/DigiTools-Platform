@@ -3,7 +3,7 @@
 📌 Description:
 DigiTools is a modern and interactive web application that allows users to explore and purchase different course packages. It provides a smooth user experience with dynamic cart management, real-time updates, and user-friendly UI components. Users can easily browse products, add them to the cart, remove items, and proceed to checkout with instant feedback using notifications.
 
-- 🛠️ Technologies Used:
+##🛠️ Technologies Used:
 - ⚛️ React.js
 - 🎨 Tailwind CSS
 - 🔔 React Toastify
@@ -13,7 +13,7 @@ DigiTools is a modern and interactive web application that allows users to explo
 
 - ✨ Features:
 
-- 1. 📦 Dynamic Product & Cart System:
+##1. 📦 Dynamic Product & Cart System:
 - Default Products tab shows all available course packages
 - Each package includes:
 - Name
@@ -24,28 +24,28 @@ DigiTools is a modern and interactive web application that allows users to explo
 - Clicking Buy Now adds the course to the cart instantly
 
 
-2. 🔄 Toggle-Based UI Navigation
+##2. 🔄 Toggle-Based UI Navigation
 - Two tabs:
     - 🛍️ Products (default view)
     - 🛒 Cart (initially empty)
 - Switching to the Cart tab shows all selected courses dynamically
 
 
-- 3. 💰 Smart Cart Management:
+##3. 💰 Smart Cart Management:
 - Users can:
 - ❌ Remove items using delete icon
 - 💳 See total purchase amount updated in real-time
 - 🧾 Click Proceed to Checkout to clear the cart
 
 
-- 4. 🔔 Real-Time Notifications: Integrated React Toastify for better UX.
+##4. 🔔 Real-Time Notifications: Integrated React Toastify for better UX.
 - Notifications appear when:
 - ✅ Clicking Buy Now
 - ❌ Removing a course
 - 💳 Proceeding to checkout
 
 
-- 📷 UI Sections Included:
+## 📷 UI Sections Included:
 - 🔝 Navbar
 - 🎯 Banner Section
 - 📊 Stats Section
@@ -54,4 +54,6 @@ DigiTools is a modern and interactive web application that allows users to explo
 - 💳 Subscription Cards
 - 🔻 Footer
 
-- DigiTools focuses on providing a clean UI, interactive user experience, and efficient state management for handling products and cart functionality in a real-world scenario.
+##Project Live Link: <p> https://digitools-app.netlify.app/ </P
+
+# DigiTools focuses on providing a clean UI, interactive user experience, and efficient state management for handling products and cart functionality in a real-world scenario.
